@@ -29,3 +29,9 @@ GitHub and Version Control
 we used GitHub to store and track our code throughout the project.
 we made regular commits after completing each feature so there is
 a clear history of our progress.
+
+GitHub Actions
+
+Screenshots
+
+Video Presentation
