@@ -1,11 +1,14 @@
 Social Sparks
-This is my IMAD5112 assignment app that we built for a friend called Cora.
+This is our IMAD5112 assignment app that we built for a friend called Cora.
 The app suggests small social actions based on the time of day.
 
-What the app does
-The user types in a time of day like Morning or Dinner.
-The app then shows a suggestion to help them stay connected with people.
-There is also a reset button to clear everything.
+Design Considerations
+-we used a simple LinearLayout so the screen is easy to read
+-The colour theme is purple and cream to make it feel warm and friendly
+-we used an EditText for input so the user can type any time of day
+-The result appears in a TextView styled as a card at the bottom
+-A Reset button allows the user to clear everything and start again
+-Error handling shows a Toast message for empty or invalid input
 
 How to run the app
 .Open Android Studio
@@ -22,6 +25,7 @@ Times you can enter
 -Dinner - calls someone for a catch up
 -Night - leaves a comment on a friends post
 
-Built for
-IMAD5111 - Introduction to Mobile Application Development
-IIE Varsity College
+GitHub and Version Control
+we used GitHub to store and track our code throughout the project.
+we made regular commits after completing each feature so there is
+a clear history of our progress.
