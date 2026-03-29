@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8F0"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- App title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Social Sparks "
+        android:textColor="#6A0DAD"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Instruction label -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="What time of day is it?"
+        android:textColor="#2D2D2D"
+        android:textSize="15sp" />
+
+
+    <!-- Text input where user types the time -->
+    <EditText
+        android:id="@+id/etTimeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        android:hint="e.g. Morning, Afternoon, Dinner"
+        android:inputType="textCapSentences"
+        android:padding="12dp" />
+
+    <!-- Button to get the suggestion -->
+    <Button
+        android:id="@+id/btnGetSpark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#7B2FBE"
+        android:text="Get My Spark!"
+        android:textColor="@color/white" />
+
+    <!-- Button to reset everything -->
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#F3E5F5"
+        android:text="Reset"
+        android:textColor="#7B2FBE" />
+
+    <!-- This is where the suggestion will appear -->
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#F3E5F5"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text=""
+        android:textColor="#2D2D2D"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
