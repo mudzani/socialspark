@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Social Sparks "
+        android:text="@string/app_title"
         android:textColor="#6A0DAD"
         android:textSize="28sp"
         android:textStyle="bold" />
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="What time of day is it?"
+        android:text="@string/time_prompt"
         android:textColor="#2D2D2D"
         android:textSize="15sp" />
 
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:background="@android:color/white"
-        android:hint="e.g. Morning, Afternoon, Dinner"
+        android:hint="@string/time_hint"
         android:inputType="textCapSentences"
         android:padding="12dp" />
 
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="#7B2FBE"
-        android:text="Get My Spark!"
+        android:text="@string/btn_get_spark"
         android:textColor="@color/white" />
 
     <!-- Button to reset everything -->
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:backgroundTint="#F3E5F5"
-        android:text="Reset"
+        android:text="@string/btn_reset"
         android:textColor="#7B2FBE" />
 
     <!-- This is where the suggestion will appear -->

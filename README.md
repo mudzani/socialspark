@@ -22,10 +22,20 @@ Times you can enter
 -Mid-morning - sends a thank you to a colleague
 -Afternoon - shares a meme with a friend
 -Snack - sends a thinking of you message
--Dinner - calls someone for a catch up
+-Dinner - calls someone for a catch up  
 -Night - leaves a comment on a friends post
 
 GitHub and Version Control
-we used GitHub to store and track our code throughout the project.
+we used GitHub to store and track my code throughout the project.
 we made regular commits after completing each feature so there is
-a clear history of our progress.
+a clear history of my progress.
+
+GitHub Actions
+
+Screenshots
+The app has a purple and cream colour theme with a simple layout.
+The main screen has a text input, two buttons, and a result card
+that shows the social spark suggestion.
+![img.png](img.png)
+
+Video Presentation
