@@ -22,21 +22,34 @@ class MainActivity : AppCompatActivity() {
         val btnReset    = findViewById<Button>(R.id.btnReset)
         val tvResult    = findViewById<TextView>(R.id.tvResult)
 
+
+        // Reference: Android Developer Documentation, 2026. View.
+// Available at: https://developer.android.com/reference/android/view/View
+// [Accessed 27 March 2026]
+
         // Tell the Get Spark button what to do when clicked
         btnGetSpark.setOnClickListener {
 
+            // Reference: Android Developer Documentation, 2026. Activity.
+// Available at: https://developer.android.com/reference/android/app/Activity
+// [Accessed 27 March 2026]
+
             // Get what the user typed, make it lowercase so "Morning" = "morning"
-            val userInput = etTimeInput.text.toString().lowercase().trim()
+             val userInput = etTimeInput.text.toString().lowercase().trim()
 
             // Use Log.d to see what the user typed in the Logcat window
             Log.d("SocialSparks", "User typed: $userInput")
 
-            // Check if the user typed nothing at all
+            // Reference: Android Developer Documentation, 2026. Toasts overview.
+// Available at: https://developer.android.com/guide/topics/ui/notifiers/toasts
+// [Accessed 27 March 2026]
+
+            // Check if the user typed anything
             if (userInput.isEmpty()) {
                 Toast.makeText(this, "Please enter a time of day", Toast.LENGTH_SHORT).show()
 
-                // Check for mid-morning BEFORE morning
-                // because mid-morning also contains the word morning
+                // Check for morning
+
             } else if (userInput.contains("mid-morning") || userInput.contains("mid morning")) {
                 tvResult.text = "Send a thank you message to a colleague "
                 Log.d("SocialSparks", "Spark shown: Mid-morning")
@@ -72,7 +85,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        // Step 4: Tell the Reset button what to do when clicked
+        // Tell the Reset button what to do when clicked
         btnReset.setOnClickListener {
             etTimeInput.text.clear()
             tvResult.text = ""

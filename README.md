@@ -4,7 +4,7 @@ The app suggests small social actions based on the time of day.
 
 Design Considerations
 -we used a simple LinearLayout so the screen is easy to read
--The colour theme is purple and cream to make it feel warm and friendly
+- custom background images adds  warm and friendly feel to the screen"
 -we used an EditText for input so the user can type any time of day
 -The result appears in a TextView styled as a card at the bottom
 -A Reset button allows the user to clear everything and start again
@@ -36,6 +36,26 @@ Screenshots
 The app has a purple and cream colour theme with a simple layout.
 The main screen has a text input, two buttons, and a result card
 that shows the social spark suggestion.
-![img.png](img.png)
+![img_1.png](img_1.png)
+
 
 Video Presentation
+
+References
+
+Android Developer Documentation, 2026.Activity. [online] Available at:
+<https://developer.android.com/reference/android/app/Activity>
+[Accessed 27 March 2026].
+
+Android Developer Documentation, 2026.Toasts overview. [online] Available at:
+<https://developer.android.com/guide/topics/ui/notifiers/toasts>
+[Accessed 27 March 2026].
+
+Android Developer Documentation, 2026.View. [online] Available at:
+<https://developer.android.com/reference/android/view/View>
+[Accessed 27 March 2026].
+
+JetBrains, 2026.Kotlin for Android. [online] Available at:
+<https://kotlinlang.org/docs/android-overview.html>
+[Accessed 27 March 2026].
+
