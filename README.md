@@ -31,8 +31,7 @@ we made regular commits after completing each feature so there is
 a clear history of my progress.
 
 
-**Screenshots**
-The app has a purple and cream colour theme with a simple layout.
+**Screenshots**t.
 The main screen has a text input, two buttons, and a result card
 that shows the social spark suggestion.
 ![img_1.png](img_1.png)
