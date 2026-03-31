@@ -30,7 +30,6 @@ we used GitHub to store and track my code throughout the project.
 we made regular commits after completing each feature so there is
 a clear history of my progress.
 
-**GitHub Actions**
 
 **Screenshots**
 The app has a purple and cream colour theme with a simple layout.
@@ -39,7 +38,13 @@ that shows the social spark suggestion.
 ![img_1.png](img_1.png)
 
 
-Video Presentation
+**Video Presentation**
+link to video https://youtube.com/shorts/LuH5iDtq8WY?si=mfA6bQ4zkDDb2jvP
+
+**Names**
+Onalenna Ntlabathi
+Maloka Thakgalang
+Donald Mudzani 
 
 **References**
 

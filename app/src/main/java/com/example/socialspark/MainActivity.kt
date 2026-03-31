@@ -16,23 +16,14 @@ class MainActivity : AppCompatActivity() {
         // This line connects this Kotlin file to the XML layout
         setContentView(R.layout.activity_main)
 
-        //  Find each view from the XML using its id
+
         val etTimeInput = findViewById<EditText>(R.id.etTimeInput)
         val btnGetSpark = findViewById<Button>(R.id.btnGetSpark)
         val btnReset    = findViewById<Button>(R.id.btnReset)
         val tvResult    = findViewById<TextView>(R.id.tvResult)
 
-
-        // Reference: Android Developer Documentation, 2026. View.
-// Available at: https://developer.android.com/reference/android/view/View
-// [Accessed 27 March 2026]
-
         // Tell the Get Spark button what to do when clicked
         btnGetSpark.setOnClickListener {
-
-            // Reference: Android Developer Documentation, 2026. Activity.
-// Available at: https://developer.android.com/reference/android/app/Activity
-// [Accessed 27 March 2026]
 
             // Get what the user typed, make it lowercase so "Morning" = "morning"
              val userInput = etTimeInput.text.toString().lowercase().trim()
@@ -40,15 +31,10 @@ class MainActivity : AppCompatActivity() {
             // Use Log.d to see what the user typed in the Logcat window
             Log.d("SocialSparks", "User typed: $userInput")
 
-            // Reference: Android Developer Documentation, 2026. Toasts overview.
-// Available at: https://developer.android.com/guide/topics/ui/notifiers/toasts
-// [Accessed 27 March 2026]
 
             // Check if the user typed anything
             if (userInput.isEmpty()) {
                 Toast.makeText(this, "Please enter a time of day", Toast.LENGTH_SHORT).show()
-
-                // Check for morning
 
             } else if (userInput.contains("mid-morning") || userInput.contains("mid morning")) {
                 tvResult.text = "Send a thank you message to a colleague "
@@ -75,7 +61,7 @@ class MainActivity : AppCompatActivity() {
                 Log.d("SocialSparks", "Spark shown: Afternoon")
 
             } else {
-                // Nothing matched - show error
+
                 Toast.makeText(
                     this,
                     "Try something like Morning, Afternoon, dinner or Night",
