@@ -37,6 +37,8 @@ a clear history of my progress.
 The main screen has a text input, two buttons, and a result card
 that shows the social spark suggestion.
 ![img_1.png](img_1.png)
+<img width="1896" height="813" alt="image" src="https://github.com/user-attachments/assets/138024fa-653f-408c-9a41-7043fe3ed45b" />
+
 
 
 **Video Presentation**
