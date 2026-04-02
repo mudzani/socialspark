@@ -3,6 +3,7 @@ This is our IMAD5112 assignment app that we built for a friend called Cora.
 The app suggests small social actions based on the time of day.
 
 
+
 **Design Considerations**
 -we used a simple LinearLayout so the screen is easy to read
 -custom background images adds  warm and friendly feel to the screen"
